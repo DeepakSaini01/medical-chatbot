@@ -1,8 +1,13 @@
-ctransformers
+
 sentence-transformers
-# pinecone-client
 langchain
 langchain-community
+langchain_openai
+langchain_experimental
 flask
 pypdf
 python-dotenv
+pinecone[grpc]
+langchain-pinecone
+langchain-huggingface
+-e.
