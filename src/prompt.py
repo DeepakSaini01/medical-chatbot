@@ -1,12 +1,10 @@
-prompt_template = """
-You are a helpful medical assistant. Using the context below, answer the question concisely in 2-3 sentences.
+prompt_template="""
 
-Context:
-{context}
+Answer the user's question **only using the information provided below**.
+Do not make up information. If the answer is not in the context, say "I don't know".
 
-Question:
-{question}
+Context: {context}
+Question: {question}
 
-Answer briefly:
+Answer:
 """
-
